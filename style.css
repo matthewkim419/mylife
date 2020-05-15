@@ -1,0 +1,101 @@
+#title{
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    
+}
+.content{
+    padding: 10%;
+}
+img{
+    grid-column: 1;
+    width:100px;
+    height: 130px;
+    border-radius: 100%;
+    border:2px solid black;
+}
+.card{
+    position: relative;
+    display:grid;
+    grid-template-columns: 60px auto 30px;
+    background-color: blanchedalmond;
+    width:40%;
+    margin-bottom:5%;
+    border:3px solid burlywood;
+    border-radius: 20%;
+    font-family: 'Sunflower', sans-serif;
+    box-shadow: 0px 0px 6px 2px burlywood inset;
+}
+
+.date{
+    position: relative;
+    grid-column: 2;
+    left:50px;
+    font-family: 'Cute Font', cursive;
+    font-size: 36px;
+   
+}
+.what{
+    position: relative;
+    grid-column: 2;
+    
+}
+.where{
+    position: relative;
+    grid-column: 2;
+    
+}
+.text{
+    position: relative;
+    grid-column: 2;
+}
+.dot{
+    width:20px;
+    height:20px;
+    background-color: black;
+    position: absolute;
+    right:-27.1%;
+    top:40%;
+    border-radius: 100%;
+}
+.line{
+    position:absolute;
+    top:42%;
+    left:50%;
+    margin:-2.5px;
+    height:107%;
+    width:5px;
+    background-color:black;
+}
+.card:nth-child(even){
+    margin-left:60%;
+}
+.card:nth-child(even) .dot{
+    left:-28.3%;
+}
+
+.buttons{
+    text-align: center;
+}
+#tothetop{
+    position:fixed;
+    left:0px;
+    bottom: 50px;
+
+}
+#home{
+    position:fixed;
+    left:0px;
+    top:50px;
+}
+@media(max-width:1000px){
+    .dot, .line{
+        display:none;
+    }
+    .card{
+        width:80%;
+        margin-left:10%;
+    }
+    .card:nth-child(even){
+        margin-left: 10%;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cute+Font&family=Nanum+Pen+Script&family=Sunflower:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="title">
+        <h1>Story of My Life </h1>
+    </div>
+    <div class="buttons">
+        <button class="changebg" onclick="
+        document.querySelector('body').style.backgroundImage='url(dog.jpg)';
+        document.querySelector('body').style.backgroundSize='cover';
+        ">강아지 </button>
+        <button class= "changebg" onclick="
+        document.querySelector('body').style.backgroundImage='url(cat.jpg)';
+        document.querySelector('body').style.backgroundSize='cover';
+        "  >고양이 </button>
+    
+    </div>
+    <a href=""><button id="home">Home</button></a>
+
+    <div class="content">
+        <div class="card">
+            <img src='baby.jpg' alt=''>
+            <div class='date'>1997.04.19</div>
+            <div class='what'>Born</div>
+            <div class='where'>강원도 춘천</div>
+            <div class='text'>머리가 커서 기계의 도움을 받았다.</div>
+            <div class='dot'></div>
+        </div>
+        <div class="card">
+            <img src='toddler.jpg' >
+            <div class='date'>2000 ~</div>
+            <div class='what'>유년기</div>
+            <div class='where'>경기도 여러 지방</div>
+            <div class='text'>아버지가 군인이셔서 한 곳에서 1년 이상 지내 본 곳이 없다.</div>
+            <div class='dot'></div>
+        </div>
+        <div class="card">
+            <img src='middle.jpg' alt=''>
+            <div class='date'>2010 ~ </div>
+            <div class='what'>학창시절</div>
+            <div class='where'>경기도 김포 </div>
+            <div class='text'>중고등학교 때문에 김포에 정착, 열공...</div>
+            <div class='dot'></div>
+        </div>
+        <div class="card">
+            <img src='now.jpg' alt=''>
+            <div class='date'>2020 ~ </div>
+            <div class='what'>청년</div>
+            <div class='where'>경기도 김포 </div>
+            <div class='text'>군대 전역, 학교 공부, 진로 고민 </div>
+            <div class='dot'></div>
+        </div>
+
+    <div class="line"></div>
+    </div>
+    <a href="#title"><button id="tothetop">Top</button></a>
+</body>
+</html>
